@@ -7,10 +7,10 @@ int main () {
 	
 	try {
 		SerialPort COM3("COM3");
-		/*COM3.BaudRate(9600);
+		COM3.BaudRate(9600);
 		COM3.TimeOut(50, 50);
 		COM3.Write("Hello!");
-		COM3.Clear();*/
+		COM3.Clear();
 		COM3.Close();
 	} catch (int error) {
 
