@@ -46,4 +46,5 @@ constructor **SerialPort(Communication Port)** -- Instantiates port
 
 # Errors I keep getting
 
-I keep getting a COMM_ERROR, and i do not know why. Please help thank you.
+When the program sends the message, I have to plug in and plug in my Arduino to receive the message in the serial monitor, not immediately.
+I also keep getting COMM_ERROR
